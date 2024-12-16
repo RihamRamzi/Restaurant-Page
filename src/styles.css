@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(115, 228, 185);
+}
+
+.navBtn {
+  background-color: rgb(178, 178, 236);
+  border: none;
+  cursor: pointer;
+}
+
+.navBtn:disabled {
+  opacity: 1;
+  cursor: pointer;
+  color: inherit;
+}
+
+p {
+  font-size: 2em;
+}
