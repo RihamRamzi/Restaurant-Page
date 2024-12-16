@@ -8,6 +8,7 @@ const content = document.querySelector("#content");
 const homeBtn = document.querySelector("#home");
 const menuBtn = document.querySelector("#menu");
 const aboutBtn = document.querySelector("#about");
+loadHome(image);
 
 homeBtn.addEventListener("click", () => {
   content.textContent = "";
